@@ -10,6 +10,34 @@
 - BIND9 DNS
 - Bash
 
+## Project Structure
+
+```text
+.
+├── Vagrantfile
+├── provision/
+│   ├── dns.sh
+│   └── web.sh
+├── config/
+│   ├── bind/
+│   │   ├── db.test.com
+│   │   ├── named.conf.local
+│   │   └── named.conf.options
+│   └── nginx/
+│       ├── master.conf
+│       ├── backup.conf
+│       ├── web1.conf
+│       ├── web2.conf
+│       ├── web1-index.html
+│       └── web2-index.html
+├── screenshots/
+│   ├── dig_via_the_dns_server.png
+│   ├── resloving_the_master.png
+│   ├── ping.png
+│   └── after_halting_web1.png
+└── README.md
+```
+
 ## Flow
 
 ```text
