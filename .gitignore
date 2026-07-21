@@ -1,0 +1,3 @@
+# Vagrant runtime files
+.vagrant/
+linux_task_report.tex
